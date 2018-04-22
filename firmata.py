@@ -1,6 +1,11 @@
 # A simple loop that reads values from the analog inputs of an Arduino port.
 # No Arduino code is necessary - just upload the standard-firmata sketch from the examples.
 
+
+#This file is heavily based on code found online which can be found here:
+#https://github.com/rolanddb/sensor-experiments/blob/master/firmata-read-analog.py
+
+
 import pyfirmata
 import signal
 import sys
